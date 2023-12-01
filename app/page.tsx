@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Header } from './components/navbar'
+import  Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       <div>
       
       </div>
+      <footer>
+        <Footer />
+        </footer>
     </main>
   )
 }
